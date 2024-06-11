@@ -33,6 +33,12 @@ ul li a:hover {
   font-weight: bold
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 h1 {
   font-family: "Mulish", sans-serif;
   font-size: 49px;
@@ -46,10 +52,12 @@ h1 span {
   color: #89C5CC;
   font-weight: bold;
 }
-p {
+
+section p {
   font-size: 14px;
   line-height: 28px;
   color: #7D7989;
+  margin: 40px 0;
 }
 
 button {
@@ -57,11 +65,30 @@ button {
   align-items: center;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
+  justify-content: center;
+
+  background-color: #69B99D;
+  border: 0;
+  padding: 14px 32px 15px;
+  color: white;
+  gap: 10px;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4EA788;
+  transition: background-color ease-in 0.3s;
+  
 }
 
 footer {
   font-size: 14px;
   line-height: 28px;
+
+  text-align: center;
+  margin-top: 80px;
 }
 
 footer a {
